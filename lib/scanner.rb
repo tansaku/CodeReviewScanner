@@ -1,5 +1,10 @@
-latest_ruby = false
-ruby_twilio_included = false
+latest_ruby = false # working on first pass
+ruby_twilio_included = false # working on first pass - more general checks for other needed gems? (check for build failure)
+rspec_can_run = false # would have to run rspec, supress output and check the result
+readme_updated = false # git comparison across branches ...
+vacuous_tests = false # would have to mutate tests out and check code coverage stats (not foolproof) - could also check for stubbing method under test ...
+sensitive_data + false # could be done with regex
+
 
 LATEST_RUBY = 'The Gemfile can lock the project to a particular version of Ruby. '\
               ' In general you should prefer the latest, currently 2.2.3'
